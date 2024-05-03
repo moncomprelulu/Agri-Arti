@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --couleur-fond:#F4F9F6;
     --couleur-principale:#11c729;
@@ -34,14 +37,15 @@ nav{
 }
 
 .logo span:nth-child(2){
-    left:40px;
+    left:30px;
+    top: 5px;
 }
 
 
 
 .logo span:last-child{
-    top: 30px;
-    left: 65px;
+    top: 35px;
+    left: 50px;
 }
 
 /* barre de recherche */
@@ -73,7 +77,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: sans-serif;
+    font-family: "be vietnam pro";
     color: black;
     text-decoration: none;
 }
@@ -82,3 +86,17 @@ nav{
     color:var(--couleur-principale);
     font-size: 25px;
 }
+
+.mes-options .option span{
+    font-size: 15px;
+}
+
+/* principale */
+main{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+/* .principale{
+
+} */
